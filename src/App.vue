@@ -1,10 +1,6 @@
 <template>
   <div id="nav">
-
-    <div class="ToHomeLogo">
-      <img src="../src/assets/logo.png" alt="Logo">
-      <a href="src/views/Home.vue">Www.Tanxianit.Com</a>
-    </div>
+   <a href="/" class="HomeLogo"><i class="fab fa-vuejs"></i></a>
     <router-link to="/">Home</router-link>
     <router-link to="/blog">Blog</router-link>
     <router-link to="/tutorials">Tutorials</router-link>
@@ -25,7 +21,6 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
 }
 
 
@@ -65,6 +60,22 @@ body {
     height: 40px;
     padding: 2px;
     margin: 8px;
+  }
+
+  .fa-vuejs{
+    color: #42b983;
+   font-size: 35px;
+    cursor:pointer;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .fa-vuejs a{
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+  }
+  .HomeLogo{
+    padding: 6px;
   }
 }
 
