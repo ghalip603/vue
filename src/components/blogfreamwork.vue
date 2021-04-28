@@ -8,8 +8,8 @@
 export default {
   name: "blogframwork",
   props: {
-    msg: String,
-  },
+    msg: String
+  }
 
 };
 </script>

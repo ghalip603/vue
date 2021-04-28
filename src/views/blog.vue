@@ -7,11 +7,12 @@
 <script>
 // eslint-disable-next-line no-unused-vars
 import blogfreamwork from "@/components/blogfreamwork.vue";
+
 export default {
   name: "blog",
   components: {
-    blogfreamwork,
-  },
+    blogfreamwork
+  }
 };
 </script>
 <style scoped></style>
